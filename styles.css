@@ -1,0 +1,186 @@
+
+
+
+#title{
+  background-color: #eb9788;
+  color: #fff;
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2
+{
+  font-size: 2.5em;
+  width: 60%;
+  text-align: center;
+  margin: auto 20% 3% 20%;
+}
+
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+p
+{
+  color: #8f8f8f;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navbar */
+.navbar{
+  padding: 0 0 5em;
+}
+
+.navbar-brand{
+  font-style: 'Montserrat';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-weight: lighter;
+  font-style: 'Ubuntu';
+}
+
+.nav-item{
+  padding: 0 .5em 1.5em;
+}
+
+.download-button{
+  margin: 8% 3% 5% 0;
+}
+
+.Iphone-image{
+  width: 60%;
+  transform: rotate(35deg);
+  margin-left: 5em;
+  position: absolute;
+  z-index: 0;
+  right: 30%;
+}
+
+@media (max-width: 1028px){
+
+.title{
+  text-align: center;
+}
+
+.Iphone-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* setion 2 */
+
+#features{
+  padding: 8% 5% 8% 5%;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.feature-box{
+
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: pink;
+  margin-bottom: 5%;
+}
+.icon:hover{
+  color: #ff468c;
+}
+
+/* Testimonial section */
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+
+  color: #ededed;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  padding: 1%;
+}
+
+
+
+
+/* Third section */
+
+#press{
+  background-color: #ef8172;
+  padding: 5% 5%;
+  text-align: center;
+
+}
+
+.third-section{
+  width: 15%;
+  padding: 8px 8px;
+  margin: auto 45px auto 45px;
+
+}
+
+
+/* Carousel */
+
+.card{
+    padding: 8% 10%;
+}
+
+.pricing{
+  text-align: center;
+}
+
+.block{
+  padding: 5%;
+}
+.plan{
+  padding: 2% 2%;
+}
+
+
+/* Final section */
+
+#cta{
+  background-color: #eb9788;
+  text-align: center;
+  color: white;
+  padding: 25px 5px;
+}
+
+.cta-heading{
+  font-family: Montserrat-black;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 2;
+
+}
+
+
+
+#footer{
+  text-align: center;
+}
+
+.small-symbols{
+  margin: 2% 0 2% 0;
+  padding: 10% 0 0 1%;
+}
